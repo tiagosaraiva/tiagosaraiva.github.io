@@ -1,7 +1,7 @@
 #my-header
 {
     height: 500px;
-    background-color: #FAC51C;
+    background-color: #44dede;
 }
 
     #my-header h1
@@ -13,18 +13,62 @@
         text-transform:uppercase
     }
 
-
+#links
+{
+    position:fixed;
+    text-align:right;
+    width:100%
+}
+    #links a
+    {
+        
+    }
+#links a, #links
+{
+    text-transform:uppercase;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:15px;
+    font-family:'Trebuchet MS';
+    font-weight:bold
+    
+    
+}
+#my-photo span
+{
+    max-width:50px;
+    text-align:left;
+    color:#ffffff;
+    
+}
+#my-photo img
+{
+    margin-bottom:10px
+    
+}
+#my-photo
+{
+    background-color: #5ebaba;
+    top:30px;
+    border-radius:5px;
+    margin-top:100px;
+    position:fixed;
+    text-align:center;
+    padding:20px;
+    max-width:106px
+}
 #navigation
 {
     background-color:gray;
-    height:100px;
+    height:50px;
     position:fixed;
     width:100%;
-    opacity:0.2
+    opacity:0.1;
+    
     
 }
 body
 {
-    background-color:#EFEFEF;
+    background-color:#fcae0d;
     height:2000px;
 }
