@@ -1,0 +1,30 @@
+#my-header
+{
+    height: 500px;
+    background-color: #FAC51C;
+}
+
+    #my-header h1
+    {
+        color:#ffffff;
+        font-family:'Trebuchet MS';
+        text-align:center;
+        margin-top:200px;
+        text-transform:uppercase
+    }
+
+
+#navigation
+{
+    background-color:gray;
+    height:100px;
+    position:fixed;
+    width:100%;
+    opacity:0.2
+    
+}
+body
+{
+    background-color:#EFEFEF;
+    height:2000px;
+}
