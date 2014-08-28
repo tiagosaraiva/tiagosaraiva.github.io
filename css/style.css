@@ -45,12 +45,10 @@
 
     #links a, #links
     {
-        text-transform: uppercase;
-        color: #ffffff;
+        color: #5ebaba;
         text-decoration: none;
-        font-size: 15px;
         font-family: 'Trebuchet MS';
-        font-weight: bold;
+        
     }
 
 #navigation
