@@ -12,6 +12,17 @@
 
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+
+
+            alert($.parseHTML($('.titulo').text()));
+
+        });
+
+    </script>
 </head>
 <body>
 
@@ -38,7 +49,7 @@
 
     </div>
     <div class="container-fluid">
-        <h1>campeão</h1>
+        <h1 class="titulo">campeão</h1>
     </div>
 
     <div class="container-fluid" id="post-list">
